@@ -1,0 +1,21 @@
+{
+  "name": "email-service-cleaned",
+  "version": "1.0.0",
+  "description": "Resilient Email Service Project",
+  "scripts": {
+    "start": "cd email-service && npm run dev",
+    "build": "cd email-service && npm run build",
+    "test": "cd email-service && npm test",
+    "install-deps": "cd email-service && npm install"
+  },
+  "keywords": [
+    "email",
+    "resilient",
+    "typescript",
+    "circuit-breaker",
+    "retry",
+    "fallback"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
